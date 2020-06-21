@@ -14,7 +14,7 @@ function main() {
 
   var oldFolder = makeDir(myDocPath, "old");
   if (!oldFolder) {
-    "oldフォルダがありません";
+    alert("oldフォルダがありません");
     exit();
   }
 
